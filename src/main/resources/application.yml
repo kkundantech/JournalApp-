@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://jeevanthitrya:o7Al2mKruxgi4yrR@cluster0.qapnxvx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: mongodb+srv://jeevanthitrya:<password>@cluster0.qapnxvx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       database: journaldb
       auto-index-creation: true
   main:
@@ -12,4 +12,4 @@ server:
     context-path: /journal
 weather:
       api:
-        key: 2ef8ee528a827eeea5a1b91953b7b3a9
+        key: key
